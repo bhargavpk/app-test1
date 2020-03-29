@@ -27,7 +27,7 @@ app.get('/signup',(req,res) => {
 })
 
 app.get('/test_route',(req,res)=>{
-    res.send('Done!');
+    res.send('Tested route reached!');
 });
 
 app.post('/signup',async (req,res)=>{

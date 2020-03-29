@@ -41,6 +41,10 @@ const User = mongoose.model('User',{
             if(!validator.isEmail(value))
                 throw new Error('Invalid E-mail address');
         }
+    },
+    login_status:{
+        type:Boolean,
+        default:false
     }
 });
 
